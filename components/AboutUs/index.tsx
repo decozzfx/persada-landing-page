@@ -10,7 +10,23 @@ const AboutUs = () => {
       <div className="mx-auto max-w-c-1235 px-4 md:px-8 xl:px-0">
         <div className="wow fadeInUp" data-wow-delay=".2s">
           <div className="-mx-4 mb-20 flex flex-wrap items-center">
-            <div className="w-full px-4 lg:w-1/2">
+            <motion.div
+              variants={{
+                hidden: {
+                  opacity: 0,
+                  x: -20,
+                },
+                visible: {
+                  opacity: 1,
+                  x: 0,
+                },
+              }}
+              initial="hidden"
+              whileInView="visible"
+              transition={{ duration: 0.5, delay: 0.1 }}
+              viewport={{ once: true }}
+              className="animate_left w-full px-4 lg:w-1/2"
+            >
               <div className="mb-12 max-w-[540px] lg:mb-0">
                 <h2 className="text-dark mb-5 text-3xl font-bold leading-tight dark:text-white sm:text-[40px] sm:leading-[1.2]">
                   PT. Persada
@@ -26,9 +42,25 @@ const AboutUs = () => {
                   interactive panel.
                 </p>
               </div>
-            </div>
+            </motion.div>
+            <motion.div
+              variants={{
+                hidden: {
+                  opacity: 0,
+                  x: 20,
+                },
 
-            <div className="w-full px-4 lg:w-1/2">
+                visible: {
+                  opacity: 1,
+                  x: 0,
+                },
+              }}
+              initial="hidden"
+              whileInView="visible"
+              transition={{ duration: 0.5, delay: 0.1 }}
+              viewport={{ once: true }}
+              className="animate_right w-full px-4 lg:w-1/2"
+            >
               <div className="-mx-2 flex flex-wrap sm:-mx-4 lg:-mx-2 xl:-mx-4">
                 <div className="w-full px-2 sm:w-1/2 sm:px-4 lg:px-2 xl:px-4">
                   <div
@@ -178,7 +210,7 @@ const AboutUs = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </motion.div>
           </div>
           <Team />
         </div>

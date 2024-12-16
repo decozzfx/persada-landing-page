@@ -1,11 +1,28 @@
 import { TeamType } from "@/types/team";
 import Image from "next/image";
+import { motion } from "framer-motion";
 
 const SingleTeam = ({ team }: { team: TeamType }) => {
   const { image, name, designation, facebookLink, twitterLink, instagramLink } =
     team;
   return (
-    <div className="w-full px-4 sm:w-1/2 lg:w-1/4 xl:w-1/4">
+    <motion.div
+      variants={{
+        hidden: {
+          opacity: 0,
+          y: 20,
+        },
+        visible: {
+          opacity: 1,
+          y: 0,
+        },
+      }}
+      initial="hidden"
+      whileInView="visible"
+      transition={{ duration: 0.5, delay: 0.4 }}
+      viewport={{ once: true }}
+      className="animate_right w-full px-4 sm:w-1/2 lg:w-1/4 xl:w-1/4"
+    >
       <div className="shadow-testimonial dark:bg-dark group mb-8 rounded-xl bg-white px-5 pb-10 pt-12 dark:shadow-none">
         <div className="relative z-10 mx-auto mb-5 h-[120px] w-[120px]">
           <Image
@@ -313,7 +330,7 @@ const SingleTeam = ({ team }: { team: TeamType }) => {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
