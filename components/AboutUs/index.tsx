@@ -7,7 +7,7 @@ import Team from "../Team";
 const AboutUs = () => {
   return (
     <section className="overflow-hidden pb-20 lg:pb-25 xl:pb-30">
-      <div className="mx-auto max-w-c-1235 px-4 md:px-8 xl:px-0">
+      <div className="mx-auto max-w-c-1154 px-4 md:px-8 xl:px-0">
         <div className="wow fadeInUp" data-wow-delay=".2s">
           <div className="-mx-4 mb-20 flex flex-wrap items-center">
             <motion.div
