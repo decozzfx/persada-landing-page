@@ -8,17 +8,17 @@ const Hero = () => {
 
   return (
     <>
-      <section className="overflow-hidden pb-20 pt-35 md:pt-40 xl:pb-25 xl:pt-46">
+      <section className="bg-hero-pattern overflow-hidden bg-cover pb-20 pt-35 md:pt-40 xl:pb-25 xl:pt-46">
         <div className="mx-auto max-w-c-1154 px-4 md:px-8 2xl:px-0">
           <div className="flex lg:items-center lg:gap-8 xl:gap-32.5">
             <div className=" md:w-1/2">
               <h4 className="mb-4.5 text-lg font-medium text-black dark:text-white">
                 🔥 PT. Persada
               </h4>
-              <h1 className="mb-5 pr-16 text-4xl font-bold text-black dark:text-white  ">
+              <h1 className="mb-5 pr-10 text-4xl font-bold text-black dark:text-white  ">
                 Enhanced Your Business Performance with Prieds Supply Chain
                 Management Software
-                <span className="relative inline-block before:absolute before:bottom-2.5 before:left-0 before:-z-1 before:h-3 before:w-full before:bg-titlebg dark:before:bg-titlebgdark ">
+                <span className="relative ml-1 inline-block before:absolute before:bottom-2.5 before:left-0 before:-z-1 before:h-3 before:w-full before:bg-titlebg dark:before:bg-titlebgdark ">
                   PERSADA
                 </span>
               </h1>

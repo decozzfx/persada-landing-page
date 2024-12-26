@@ -15,6 +15,10 @@ module.exports = {
       inter: ["Inter", "sans-serif"],
     },
     extend: {
+      backgroundImage: {
+        "hero-pattern":
+          "linear-gradient(to bottom, #A5F1FC50, #FFFFFF), url('/images/blog/blog-01.png')",
+      },
       colors: {
         current: "currentColor",
         transparent: "transparent",

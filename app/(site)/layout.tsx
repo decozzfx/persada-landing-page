@@ -18,7 +18,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`dark:bg-black ${inter.className}`}>
+      <body
+        className={`scroll dark:bg-black  [&::-webkit-scrollbar-thumb]:bg-gray-300
+  dark:[&::-webkit-scrollbar-thumb]:bg-neutral-500
+  [&::-webkit-scrollbar-track]:bg-gray-100
+  dark:[&::-webkit-scrollbar-track]:bg-neutral-700
+  [&::-webkit-scrollbar]:w-2 ${inter.className}`}
+      >
         <ThemeProvider
           enableSystem={false}
           attribute="class"

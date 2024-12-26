@@ -29,9 +29,9 @@ const Header = () => {
 
   return (
     <header
-      className={`fixed left-0 top-0 z-99999 w-full py-7 ${
+      className={`fixed left-0 top-0 z-99999 w-full py-4 ${
         stickyMenu
-          ? "bg-white !py-4 shadow transition duration-100 dark:bg-black"
+          ? "bg-white shadow transition duration-100 dark:bg-black"
           : ""
       }`}
     >
@@ -110,12 +110,16 @@ const Header = () => {
                     <>
                       <button
                         onClick={() => setDropdownToggler(!dropdownToggler)}
-                        className="flex cursor-pointer items-center justify-between gap-3 hover:text-primary"
+                        className={`${
+                          stickyMenu ? "" : "text-white"
+                        } flex cursor-pointer items-center justify-between gap-3  hover:text-primary`}
                       >
                         {menuItem.title}
                         <span>
                           <svg
-                            className="h-3 w-3 cursor-pointer fill-waterloo group-hover:fill-primary"
+                            className={`h-3 w-3 cursor-pointer ${
+                              stickyMenu ? "fill-waterloo" : "fill-white"
+                            }  group-hover:fill-primary`}
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 512 512"
                           >
@@ -140,7 +144,9 @@ const Header = () => {
                       className={
                         pathUrl === menuItem.path
                           ? "text-primary hover:text-primary"
-                          : "hover:text-primary"
+                          : `${
+                              stickyMenu ? "" : "text-white"
+                            } hover:text-primary`
                       }
                     >
                       {menuItem.title}
@@ -152,7 +158,7 @@ const Header = () => {
           </nav>
 
           <div className="mt-7 flex items-center gap-6 xl:mt-0">
-            <ThemeToggler />
+            {/* <ThemeToggler /> */}
 
             <Link
               href="/support"
