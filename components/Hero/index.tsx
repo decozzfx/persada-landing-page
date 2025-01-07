@@ -1,14 +1,14 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import { useState } from "react";
+import { useTranslation } from "react-i18next";
 
 const Hero = () => {
-  const [email, setEmail] = useState("");
+  const { t } = useTranslation("");
 
   return (
     <>
-      <section className="bg-hero-pattern overflow-hidden bg-cover pb-20 pt-35 md:pt-40 xl:pb-25 xl:pt-46">
+      <section className="overflow-hidden bg-hero-pattern bg-cover pb-20 pt-35 md:pt-40 xl:pb-25 xl:pt-46">
         <div className="mx-auto max-w-c-1154 px-4 md:px-8 2xl:px-0">
           <div className="flex lg:items-center lg:gap-8 xl:gap-32.5">
             <div className=" md:w-1/2">
@@ -22,10 +22,7 @@ const Hero = () => {
                   PERSADA
                 </span>
               </h1>
-              <p>
-                Automate your supply chain processes using our cloud-based
-                Supply Chain Management Software.
-              </p>
+              <p>{t("WELCOME TO MAHA-JOB")}</p>
 
               <div className="mt-10">
                 <div className="flex flex-wrap gap-5">
