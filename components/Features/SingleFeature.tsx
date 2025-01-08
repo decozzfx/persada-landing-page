@@ -2,9 +2,11 @@ import React from "react";
 import { Feature } from "@/types/feature";
 import Image from "next/image";
 import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
 
 const SingleFeature = ({ feature }: { feature: Feature }) => {
   const { icon, title, description } = feature;
+  const { t } = useTranslation();
 
   return (
     <>
@@ -30,9 +32,9 @@ const SingleFeature = ({ feature }: { feature: Feature }) => {
           <Image src={icon} width={36} height={36} alt="title" />
         </div>
         <h3 className="mb-5 mt-7.5 text-xl font-semibold text-black dark:text-white xl:text-itemtitle">
-          {title}
+          {t(title)}
         </h3>
-        <p>{description}</p>
+        <p>{t(description)}</p>
       </motion.div>
     </>
   );

@@ -3,8 +3,10 @@ import React from "react";
 import featuresData from "./featuresData";
 import SingleFeature from "./SingleFeature";
 import SectionHeader from "../Common/SectionHeader";
+import { useTranslation } from "react-i18next";
 
 const Feature = () => {
+  const { t } = useTranslation();
   return (
     <>
       {/* <!-- ===== Features Start ===== --> */}
@@ -13,11 +15,9 @@ const Feature = () => {
           {/* <!-- Section Title Start --> */}
           <SectionHeader
             headerInfo={{
-              title: "FEATURES",
-              subtitle: "Suitable for Any Business",
-              description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-            convallis tortor eros. Donec vitae tortor lacus. Phasellus aliquam
-            ante in maximus.`,
+              title: t("home.features.title").toUpperCase(),
+              subtitle: t("home.features.subtitle"),
+              description: t("home.features.description"),
             }}
           />
           {/* <!-- Section Title End --> */}

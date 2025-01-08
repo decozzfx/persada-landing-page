@@ -1,4 +1,54 @@
 {
   "en": "English",
-  "id": "Indonesia"
+  "id": "Indonesia",
+
+  "home.hero.title": "Indonesia’s No. 1 Leading Smart Healthcare Solutions",
+  "home.hero.description1": "Serving since 1995, Raen provides the best reliable healthcare apparel and RFID technology, enhancing patient care and operational efficiency.",
+  "home.hero.description2": "Discover how Raen’s smart solutions integrate high-technology with medical needs to elevate healthcare standards across Indonesia.",
+  "home.hero.button": "Explore  Our Innovations",
+
+  "home.features.title": "Features",
+  "home.features.subtitle": "Unique Value Proposition",
+  "home.features.description": "Raen is committed to providing the best healthcare solutions that are reliable, efficient, and innovative. Our unique value proposition is what sets us apart from the rest.",
+  "home.features.item1.title": "Commitment  To Quality",
+  "home.features.item1.description": "Focusing on innovation and modern technology that makes our medical product is ahead of the curve.",
+  "home.features.item2.title": "Comprehensive Product Range",
+  "home.features.item2.description": "Flexible platform designed to scale across your hospital needs: Inventory, Assets, Supply Chain, and Security.",
+  "home.features.item3.title": "Functional & Durability",
+  "home.features.item3.description": "Enhancing key benefits that are centering on: High Durability and Long-Term Value. Made for performance which establishes the high functionality of the product.",
+  "home.features.item4.title": "Striving for Innovation",
+  "home.features.item4.description": "Our product goes with the business and adapts to changing needs. Helping you with the efficiencies and unique business requirements.",
+  "home.features.item5.title": "Customization",
+  "home.features.item5.description": "Provide fully customizable solutions adjusting to the unique needs of your healthcare business.",
+
+  "new": "New",
+  "home.products.title": "Featured Products",
+  "home.products.subtitle": "Our Products",
+  "home.products.description": "Raen offers a wide range of healthcare products that are designed to meet the needs of healthcare professionals. Our products are made from high-quality materials and are designed to be durable and long-lasting.",
+
+  "home.products.item1.title": "RFID-Enabled Medical Apparel",
+  "home.products.item1.description": "Our RFID-enabled medical apparel is designed to help healthcare professionals manage their inventory more efficiently.",
+  "home.products.item1.subitem1.title": "Raen Surgical Apparel",
+  "home.products.item1.subitem2.title": "Raen Inpatient Apparel",
+  "home.products.item1.subitem3.title": "Raen Personnel Apparel",
+  "home.products.item1.subitem4.title": "Raen Surgical Drapes",
+  "home.products.item1.subitem5.title": "Raen Ward Linen",
+
+  "home.products.item2.title": "Raen SmartTrack RFID",
+  "home.products.item2.description": "Our SmartTrack RFID system is designed to help healthcare professionals track their inventory more efficiently.",
+  "home.products.item2.subitem1.title": "Patient Identification & Tracking",
+  "home.products.item2.subitem2.title": "Medical Instrument Management",
+  "home.products.item2.subitem3.title": "Supply Chain Management",
+  "home.products.item2.subitem4.title": "Medication Management",
+  "home.products.item2.subitem5.title": "Access Control",
+
+  "home.funfacts.title": "Trusted by National Companies",
+  "home.funfacts.description": "Raen is trusted by some of the largest healthcare companies in Indonesia. Our clients include hospitals, clinics, and other healthcare facilities.",
+  "home.funfucts.client": "National Clients",
+  "home.funfucts.sold": "Products Sold",
+
+  "footer.description": "Raen is a visionary company in Indonesia that excels in the healthcare field and beyond. We deliver high-quality products designed to enhance patient care, alongside RFID technology to optimize operations and efficiency across diverse industries, including logistics, manufacturing, retail, and more.",
+  "footer.contact": "Contact Us",
+  "footer.email": "pt.gunasaranautama@gmail.com ",
+  "footer.address": "Riverside Blok E-381 Malang, East Java, Indonesia "
 }

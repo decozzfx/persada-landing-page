@@ -16,13 +16,10 @@ const Hero = () => {
                 🔥 PT. Persada
               </h4>
               <h1 className="mb-5 pr-10 text-4xl font-bold text-black dark:text-white  ">
-                Enhanced Your Business Performance with Prieds Supply Chain
-                Management Software
-                <span className="relative ml-1 inline-block before:absolute before:bottom-2.5 before:left-0 before:-z-1 before:h-3 before:w-full before:bg-titlebg dark:before:bg-titlebgdark ">
-                  PERSADA
-                </span>
+                {t("home.hero.title")}
               </h1>
-              <p>{t("WELCOME TO MAHA-JOB")}</p>
+              <p>{t("home.hero.description1")}</p>
+              <p>{t("home.hero.description2")}</p>
 
               <div className="mt-10">
                 <div className="flex flex-wrap gap-5">
@@ -30,7 +27,7 @@ const Hero = () => {
                     href="/support"
                     className="flex items-center justify-center rounded-full bg-primary px-7.5 py-2.5 text-regular text-white duration-300 ease-in-out hover:bg-primaryho"
                   >
-                    Contact Us
+                    {t("home.hero.button")}
                   </Link>
                 </div>
               </div>
