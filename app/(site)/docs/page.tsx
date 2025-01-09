@@ -1,10 +1,10 @@
 import SidebarLink from "@/components/Docs/SidebarLink";
+import brand from "@/constants/brand";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Docs Page - Persada",
-  description: "This is Docs page for Solid Pro",
-  // other metadata
+  title: `Home Page - ${brand.title}`,
+  description: "Medical and Industrial Apparel",
 };
 
 export default function DocsPage() {

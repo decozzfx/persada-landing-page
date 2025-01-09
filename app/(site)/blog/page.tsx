@@ -1,11 +1,11 @@
 import BlogData from "@/components/Blog/blogData";
 import BlogItem from "@/components/Blog/BlogItem";
+import brand from "@/constants/brand";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Blog Page - Persada",
-  description: "This is Blog page for Solid Pro",
-  // other metadata
+  title: `Home Page - ${brand.title}`,
+  description: "Medical and Industrial Apparel",
 };
 
 const BlogPage = async () => {

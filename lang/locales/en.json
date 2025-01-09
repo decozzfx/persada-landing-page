@@ -49,6 +49,73 @@
 
   "footer.description": "Raen is a visionary company in Indonesia that excels in the healthcare field and beyond. We deliver high-quality products designed to enhance patient care, alongside RFID technology to optimize operations and efficiency across diverse industries, including logistics, manufacturing, retail, and more.",
   "footer.contact": "Contact Us",
-  "footer.email": "pt.gunasaranautama@gmail.com ",
-  "footer.address": "Riverside Blok E-381 Malang, East Java, Indonesia "
+  "footer.email": "pt.gunasaranautama@gmail.com",
+  "footer.address": "Riverside Blok E-381 Malang, East Java, Indonesia",
+
+  "product1.section1.title": "Products",
+  "product1.section1.subtitle": "Smart Medical & Industrial Clothing",
+  "product1.section1.description": "Revolutionize your hospital ecosystem with our RFID-enabled apparel management",
+
+  "product1.section2.title": "At Raen, we understand the critical role that high-quality apparel plays in both medical and industrial settings.",
+  "product1.section2.description": "Our range of innovative products is designed to meet the rigorous demands of these environments, ensuring safety, comfort, and durability.",
+  "product1.section2.productList.1.title": "Raen Surgical Apparel",
+  "product1.section2.productList.1.image": "/images/about/about-light-01.png",
+  "product1.section2.productList.1.description": "Raen Surgical Apparel offers surgical attire specifically designed for operating rooms. Crafted exclusively by Raen, our material absorbs water, blood, and body fluids effectively, preventing drips to the floor while ensuring excellent air circulation to keep you cool. An additional Teflon layer enhances the durability of its water-repellent properties, making it ideal for healthcare professionals seeking reliable and comfortable medical apparel.",
+
+  "product1.section2.productList.2.title": "Raen Inpatient Apparel",
+  "product1.section2.productList.2.image": "/images/about/about-light-01.png",
+  "product1.section2.productList.2.description": "Raen Inpatient Apparel is a collection of inpatient attire available in sizes for both children and adults. Each piece is crafted with materials chosen for their comfort, durability, and suitability for patients undergoing treatment.",
+
+  "product1.section2.productList.3.title": "Raen Personnel Apparel",
+  "product1.section2.productList.3.image": "/images/about/about-light-01.png",
+  "product1.section2.productList.3.description": "Raen Personnel Apparel offers a range of personnel attire designed to support various roles at work, including doctors, nurses, pharmacists, and the nutrition staff. Crafted from materials chosen for comfort, durability, and role-specific suitability, these garments feature aesthetically pleasing designs with neat, detailed stitching. This ensures strong, long-lasting products with exceptional longevity.",
+
+  "product1.section2.productList.4.title": "Raen Surgical Drapes",
+  "product1.section2.productList.4.image": "/images/about/about-light-01.png",
+  "product1.section2.productList.4.description": "Raen Surgical Drapes offers specialized surgical drapes designed to maintain a clean and sterile environment during operations.",
+
+  "product1.section2.productList.5.title": "Raen Ward Linen",
+  "product1.section2.productList.5.image": "/images/about/about-light-01.png",
+  "product1.section2.productList.5.description": "Raen Ward Linen offers non-clothing essentials for healthcare wards and inpatient settings. Crafted from comfortable materials, these products are expertly sewn to ensure durability and functionality. Each item is designed to meet the specific needs of healthcare environments, providing both comfort and reliability.",
+
+  "product1.section3.title": "Our Features",
+  "product1.section3.subtitle": "Features and Benefits Products",
+
+  "product1.section3.feature.1.title": "Unmatched Protection and Comfort",
+  "product1.section3.feature.1.image": "/images/about/about-light-01.png",
+  "product1.section3.feature.1.item.1": "Exclusive Anti-Bacterial and Water Repellent Fabrics",
+  "product1.section3.feature.1.item.2": "Innovative, Uniquely Crafted Material",
+
+  "product1.section3.feature.2.title": "Engineered for Performance",
+  "product1.section3.feature.2.image": "/images/about/about-light-01.png",
+  "product1.section3.feature.2.item.1": "RFID Technology for Linen Management",
+  "product1.section3.feature.2.item.2": "Long-Lasting Durability",
+
+  "product1.section3.feature.3.title": "Tailored for Your Needs",
+  "product1.section3.feature.3.image": "/images/about/about-light-01.png",
+  "product1.section3.feature.3.item.1": "Customizable Options",
+  "product1.section3.feature.3.item.2": "Trusted by Leading Institutions",
+
+  "product1.section4.title": "Clients Problem vs Our Solutions",
+
+  "product1.section4.item.1.title": "Inefficient Inventory Management",
+  "product1.section4.item.1.problem": "Manual sorting and tracking of linen and apparel can be time-consuming and prone to errors, leading to inefficiencies and potential loss of items.",
+  "product1.section4.item.1.solution": "Our RFID technology offers automatic, real-time, and accurate tracking of linen stock, reducing sorting time by 3-4 hours compared to manual methods.",
+
+  "product1.section4.item.2.title": "Durability & Maintenance",
+  "product1.section4.item.2.problem": "Frequent washing and sterilization can degrade the quality of medical apparel, leading to increased replacement costs.",
+  "product1.section4.item.2.solution": "Raen's products, such as those made from TR Twill Antibacterial material, are designed to withstand repeated washings and high-temperature sterilization, maintaining durability and comfort. The soil release and water repellent features further enhance the longevity of the apparel.",
+
+  "product1.section4.item.3.title": "Customization & Versatility",
+  "product1.section4.item.3.problem": "Different industries and roles require specific types of apparel and linen, which can be challenging to source.",
+  "product1.section4.item.3.solution": "Raen offers a wide range of customizable products, from surgical gowns to patient pajamas, available in various sizes and materials to suit specific needs across different sectors.",
+
+  "product1.section4.item.4.title": "Cost & Resources",
+  "product1.section4.item.4.problem": "High operational costs and resource allocation for inventory management can strain budgets.",
+  "product1.section4.item.4.solution": "By integrating RFID technology, Raen helps reduce time, cost, and labor associated with inventory management, making operations more efficient and cost-effective.",
+
+  "product1.section5.title": "Ready to elevate your apparel?",
+  "product1.section5.button": "Get in Touch Now",
+  "product1.section5.subtitle": "Not finding what you need?",
+  "product1.section5.link": "Let’s discuss"
 }

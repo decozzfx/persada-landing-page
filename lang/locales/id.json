@@ -1,8 +1,121 @@
 {
   "en": "English",
   "id": "Indonesia",
+
   "home.hero.title": "Solusi Kesehatan Cerdas Terkemuka No. 1 di Indonesia",
   "home.hero.description1": "Melayani sejak 1995, Raen menyediakan pakaian perawatan kesehatan dan teknologi RFID terbaik yang dapat diandalkan, meningkatkan perawatan pasien dan efisiensi operasional.",
-  "home.hero.description2": "Temukan bagaimana solusi cerdas Raen mengintegrasikan teknologi tinggi dengan kebutuhan medis untuk meningkatkan standar kesehatan di seluruh Indonesia",
-  "home.hero.button": "Jelajahi Inovasi Kami"
+  "home.hero.description2": "Temukan bagaimana solusi cerdas Raen mengintegrasikan teknologi tinggi dengan kebutuhan medis untuk meningkatkan standar kesehatan di seluruh Indonesia.",
+  "home.hero.button": "Jelajahi Inovasi Kami",
+
+  "home.features.title": "Fitur",
+  "home.features.subtitle": "Proposisi Nilai Unik",
+  "home.features.description": "Raen berkomitmen untuk menyediakan solusi kesehatan terbaik yang dapat diandalkan, efisien, dan inovatif. Proposisi nilai unik kami adalah yang membedakan kami dari yang lain.",
+  "home.features.item1.title": "Komitmen Terhadap Kualitas",
+  "home.features.item1.description": "Fokus pada inovasi dan teknologi modern yang membuat produk medis kami lebih unggul.",
+  "home.features.item2.title": "Rangkaian Produk yang Komprehensif",
+  "home.features.item2.description": "Platform fleksibel yang dirancang untuk skala kebutuhan rumah sakit Anda: Inventaris, Aset, Rantai Pasokan, dan Keamanan.",
+  "home.features.item3.title": "Fungsionalitas & Daya Tahan",
+  "home.features.item3.description": "Meningkatkan manfaat utama yang berfokus pada: Daya Tahan Tinggi dan Nilai Jangka Panjang. Dibuat untuk kinerja yang tinggi dan memastikan fungsionalitas produk yang tinggi.",
+  "home.features.item4.title": "Berusaha untuk Inovasi",
+  "home.features.item4.description": "Produk kami mengikuti bisnis dan beradaptasi dengan kebutuhan yang berubah. Membantu Anda dengan efisiensi dan kebutuhan bisnis yang unik.",
+  "home.features.item5.title": "Kustomisasi",
+  "home.features.item5.description": "Memberikan solusi yang sepenuhnya dapat disesuaikan dengan kebutuhan unik bisnis kesehatan Anda.",
+
+  "new": "Baru",
+  "home.products.title": "Produk Unggulan",
+  "home.products.subtitle": "Produk Kami",
+  "home.products.description": "Raen menawarkan berbagai produk kesehatan yang dirancang untuk memenuhi kebutuhan profesional kesehatan. Produk kami terbuat dari bahan berkualitas tinggi dan dirancang untuk tahan lama.",
+
+  "home.products.item1.title": "Pakaian Medis Berbasis RFID",
+  "home.products.item1.description": "Pakaian medis berbasis RFID kami dirancang untuk membantu profesional kesehatan mengelola inventaris mereka dengan lebih efisien.",
+  "home.products.item1.subitem1.title": "Pakaian Bedah Raen",
+  "home.products.item1.subitem2.title": "Pakaian Pasien Raen",
+  "home.products.item1.subitem3.title": "Pakaian Personel Raen",
+  "home.products.item1.subitem4.title": "Drapes Bedah Raen",
+  "home.products.item1.subitem5.title": "Linen Ruang Rawat Raen",
+
+  "home.products.item2.title": "Raen SmartTrack RFID",
+  "home.products.item2.description": "Sistem SmartTrack RFID kami dirancang untuk membantu profesional kesehatan melacak inventaris mereka dengan lebih efisien.",
+  "home.products.item2.subitem1.title": "Identifikasi & Pelacakan Pasien",
+  "home.products.item2.subitem2.title": "Manajemen Instrumen Medis",
+  "home.products.item2.subitem3.title": "Manajemen Rantai Pasokan",
+  "home.products.item2.subitem4.title": "Manajemen Obat",
+  "home.products.item2.subitem5.title": "Kontrol Akses",
+
+  "home.funfacts.title": "Dipercaya oleh Perusahaan Nasional",
+  "home.funfacts.description": "Raen dipercaya oleh beberapa perusahaan kesehatan terbesar di Indonesia. Klien kami termasuk rumah sakit, klinik, dan fasilitas kesehatan lainnya.",
+  "home.funfucts.client": "Klien Nasional",
+  "home.funfucts.sold": "Produk Terjual",
+
+  "footer.description": "Raen adalah perusahaan visioner di Indonesia yang unggul di bidang kesehatan dan di luar itu. Kami menyediakan produk berkualitas tinggi yang dirancang untuk meningkatkan perawatan pasien, bersama dengan teknologi RFID untuk mengoptimalkan operasi dan efisiensi di berbagai industri, termasuk logistik, manufaktur, ritel, dan lainnya.",
+  "footer.contact": "Hubungi Kami",
+  "footer.email": "pt.gunasaranautama@gmail.com",
+  "footer.address": "Riverside Blok E-381 Malang, Jawa Timur, Indonesia",
+
+  "product1.section1.title": "Produk",
+  "product1.section1.subtitle": "Pakaian Cerdas Medis & Industri",
+  "product1.section1.description": "Revolusionerkan ekosistem rumah sakit Anda dengan manajemen pakaian berbasis RFID kami",
+
+  "product1.section2.title": "Di Raen, kami memahami peran penting pakaian berkualitas tinggi dalam pengaturan medis dan industri.",
+  "product1.section2.description": "Rangkaian produk inovatif kami dirancang untuk memenuhi tuntutan lingkungan yang ketat ini, memastikan keselamatan, kenyamanan, dan daya tahan.",
+  "product1.section2.productList.1.title": "Pakaian Bedah Raen",
+  "product1.section2.productList.1.image": "/images/about/about-light-01.png",
+  "product1.section2.productList.1.description": "Pakaian Bedah Raen menawarkan pakaian bedah yang dirancang khusus untuk ruang operasi. Terbuat secara eksklusif oleh Raen, bahan kami menyerap air, darah, dan cairan tubuh dengan efektif, mencegah tetesan ke lantai sambil memastikan sirkulasi udara yang sangat baik untuk menjaga Anda tetap dingin. Lapisan Teflon tambahan meningkatkan daya tahan sifat tahan airnya, menjadikannya ideal untuk profesional kesehatan yang mencari pakaian medis yang dapat diandalkan dan nyaman.",
+
+  "product1.section2.productList.2.title": "Pakaian Pasien Raen",
+  "product1.section2.productList.2.image": "/images/about/about-light-01.png",
+  "product1.section2.productList.2.description": "Pakaian Pasien Raen adalah koleksi pakaian untuk pasien yang tersedia dalam ukuran untuk anak-anak dan orang dewasa. Setiap potongannya dibuat dengan bahan yang dipilih untuk kenyamanan, daya tahan, dan kesesuaian untuk pasien yang menjalani perawatan.",
+
+  "product1.section2.productList.3.title": "Pakaian Personel Raen",
+  "product1.section2.productList.3.image": "/images/about/about-light-01.png",
+  "product1.section2.productList.3.description": "Pakaian Personel Raen menawarkan berbagai pakaian untuk personel yang dirancang untuk mendukung berbagai peran di tempat kerja, termasuk dokter, perawat, apoteker, dan staf gizi. Terbuat dari bahan yang dipilih untuk kenyamanan, daya tahan, dan kesesuaian dengan peran, pakaian ini memiliki desain estetis dengan jahitan yang rapi dan terperinci. Ini memastikan produk yang kuat dan tahan lama dengan umur panjang yang luar biasa.",
+
+  "product1.section2.productList.4.title": "Drapes Bedah Raen",
+  "product1.section2.productList.4.image": "/images/about/about-light-01.png",
+  "product1.section2.productList.4.description": "Drapes Bedah Raen menawarkan drapes bedah khusus yang dirancang untuk menjaga lingkungan tetap bersih dan steril selama operasi.",
+
+  "product1.section2.productList.5.title": "Linen Ruang Rawat Raen",
+  "product1.section2.productList.5.image": "/images/about/about-light-01.png",
+  "product1.section2.productList.5.description": "Linen Ruang Rawat Raen menawarkan kebutuhan non-pakaian untuk ruang rawat rumah sakit dan pengaturan rawat inap. Terbuat dari bahan yang nyaman, produk ini dijahit dengan ahli untuk memastikan daya tahan dan fungsionalitas. Setiap item dirancang untuk memenuhi kebutuhan spesifik lingkungan kesehatan, memberikan kenyamanan dan keandalan.",
+
+  "product1.section3.title": "Fitur Kami",
+  "product1.section3.subtitle": "Fitur dan Manfaat Produk",
+
+  "product1.section3.feature.1.title": "Perlindungan dan Kenyamanan yang Tak Tertandingi",
+  "product1.section3.feature.1.image": "/images/about/about-light-01.png",
+  "product1.section3.feature.1.item.1": "Kain Anti-Bakteri dan Tahan Air Eksklusif",
+  "product1.section3.feature.1.item.2": "Bahan yang Dirancang Secara Inovatif dan Unik",
+
+  "product1.section3.feature.2.title": "Dirancang untuk Kinerja",
+  "product1.section3.feature.2.image": "/images/about/about-light-01.png",
+  "product1.section3.feature.2.item.1": "Teknologi RFID untuk Manajemen Linen",
+  "product1.section3.feature.2.item.2": "Daya Tahan yang Lama",
+
+  "product1.section3.feature.3.title": "Disesuaikan untuk Kebutuhan Anda",
+  "product1.section3.feature.3.image": "/images/about/about-light-01.png",
+  "product1.section3.feature.3.item.1": "Pilihan yang Dapat Disesuaikan",
+  "product1.section3.feature.3.item.2": "Dipercaya oleh Institusi Terkemuka",
+
+  "product1.section4.title": "Masalah Klien vs Solusi Kami",
+
+  "product1.section4.item.1.title": "Manajemen Inventaris yang Tidak Efisien",
+  "product1.section4.item.1.problem": "Sortir manual dan pelacakan linen serta pakaian bisa memakan waktu dan rentan terhadap kesalahan, yang mengarah pada ketidakefisienan dan potensi kehilangan barang.",
+  "product1.section4.item.1.solution": "Teknologi RFID kami menawarkan pelacakan otomatis, real-time, dan akurat terhadap stok linen, mengurangi waktu sortir 3-4 jam dibandingkan metode manual.",
+
+  "product1.section4.item.2.title": "Daya Tahan & Pemeliharaan",
+  "product1.section4.item.2.problem": "Pencucian dan sterilisasi yang sering dapat merusak kualitas pakaian medis, yang menyebabkan biaya penggantian yang lebih tinggi.",
+  "product1.section4.item.2.solution": "Produk Raen, seperti yang terbuat dari bahan TR Twill Antibakteri, dirancang untuk bertahan dari pencucian berulang dan sterilisasi suhu tinggi, menjaga daya tahan dan kenyamanan. Fitur pelepasan kotoran dan tahan air semakin meningkatkan umur panjang pakaian.",
+
+  "product1.section4.item.3.title": "Kustomisasi & Fleksibilitas",
+  "product1.section4.item.3.problem": "Berbagai industri dan peran memerlukan jenis pakaian dan linen tertentu, yang dapat sulit untuk ditemukan.",
+  "product1.section4.item.3.solution": "Raen menawarkan berbagai produk yang dapat disesuaikan, mulai dari gaun bedah hingga piyama pasien, tersedia dalam berbagai ukuran dan bahan untuk memenuhi kebutuhan spesifik di berbagai sektor.",
+
+  "product1.section4.item.4.title": "Biaya & Sumber Daya",
+  "product1.section4.item.4.problem": "Biaya operasional yang tinggi dan alokasi sumber daya untuk manajemen inventaris dapat membebani anggaran.",
+  "product1.section4.item.4.solution": "Dengan mengintegrasikan teknologi RFID, Raen membantu mengurangi waktu, biaya, dan tenaga kerja yang terkait dengan manajemen inventaris, menjadikan operasi lebih efisien dan hemat biaya.",
+
+  "product1.section5.title": "Siap untuk meningkatkan pakaian Anda?",
+  "product1.section5.button": "Hubungi Kami Sekarang",
+  "product1.section5.subtitle": "Tidak menemukan apa yang Anda butuhkan?",
+  "product1.section5.link": "Mari berdiskusi"
 }

@@ -1,12 +1,12 @@
 import RelatedPost from "@/components/Blog/RelatedPost";
 import SharePost from "@/components/Blog/SharePost";
+import brand from "@/constants/brand";
 import { Metadata } from "next";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Blog Details Page - Persada",
-  description: "This is Blog details page for Solid Pro",
-  // other metadata
+  title: `Home Page - ${brand.title}`,
+  description: "Medical and Industrial Apparel",
 };
 
 const SingleBlogPage = async () => {

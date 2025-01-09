@@ -1,10 +1,10 @@
 import Signup from "@/components/Auth/Signup";
+import brand from "@/constants/brand";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Sign Up Page - Persada",
-  description: "This is Sign Up page for Startup Pro",
-  // other metadata
+  title: `Home Page - ${brand.title}`,
+  description: "Medical and Industrial Apparel",
 };
 
 export default function Register() {

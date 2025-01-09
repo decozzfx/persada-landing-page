@@ -1,11 +1,11 @@
 import React from "react";
 import { Metadata } from "next";
 import AboutUs from "@/components/AboutUs";
+import brand from "@/constants/brand";
 
 export const metadata: Metadata = {
-  title: "About Us Page - Persada",
-  description: "This is About Us page for Solid Pro",
-  // other metadata
+  title: `Home Page - ${brand.title}`,
+  description: "Medical and Industrial Apparel",
 };
 
 const AboutUsPage = () => {

@@ -1,10 +1,10 @@
 import Signin from "@/components/Auth/Signin";
+import brand from "@/constants/brand";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Login Page - Persada",
-  description: "This is Login page for Startup Pro",
-  // other metadata
+  title: `Home Page - ${brand.title}`,
+  description: "Medical and Industrial Apparel",
 };
 
 const SigninPage = () => {

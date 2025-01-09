@@ -4,11 +4,11 @@ import Brands from "@/components/Brands";
 import Feature from "@/components/Features";
 import Products from "@/components/Products";
 import FunFact from "@/components/FunFact";
+import brand from "@/constants/brand";
 
 export const metadata: Metadata = {
-  title: "Next.js Starter Template for SaaS Startups - Persada",
-  description: "This is Home for Solid Pro",
-  // other metadata
+  title: `Home Page - ${brand.title}`,
+  description: "Medical and Industrial Apparel",
 };
 
 export default function Home() {

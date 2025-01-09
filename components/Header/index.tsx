@@ -14,6 +14,7 @@ const Header = () => {
   const [stickyMenu, setStickyMenu] = useState(false);
 
   const pathUrl = usePathname();
+  const isHome = pathUrl === "/";
 
   // Sticky menu
   const handleStickyMenu = () => {
@@ -112,14 +113,22 @@ const Header = () => {
                       <button
                         onClick={() => setDropdownToggler(!dropdownToggler)}
                         className={`${
-                          stickyMenu ? "" : "text-white"
+                          stickyMenu
+                            ? ""
+                            : !isHome
+                            ? "fill-waterloo"
+                            : "text-white"
                         } flex cursor-pointer items-center justify-between gap-3  hover:text-primary`}
                       >
                         {menuItem.title}
                         <span>
                           <svg
                             className={`h-3 w-3 cursor-pointer ${
-                              stickyMenu ? "fill-waterloo" : "fill-white"
+                              stickyMenu
+                                ? "fill-waterloo"
+                                : !isHome
+                                ? "fill-waterloo"
+                                : "fill-white"
                             }  group-hover:fill-primary`}
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 512 512"
@@ -146,7 +155,11 @@ const Header = () => {
                         pathUrl === menuItem.path
                           ? "text-primary hover:text-primary"
                           : `${
-                              stickyMenu ? "" : "text-white"
+                              stickyMenu
+                                ? ""
+                                : !isHome
+                                ? "fill-waterloo"
+                                : "text-white"
                             } hover:text-primary`
                       }
                     >
@@ -160,7 +173,7 @@ const Header = () => {
 
           <div className="mt-7 flex items-center gap-6 xl:mt-0">
             {/* <ThemeToggler /> */}
-            <LocalSwicher stickyMenu={stickyMenu} />
+            <LocalSwicher isHome={isHome} stickyMenu={stickyMenu} />
             <Link
               href="/support"
               className="flex items-center justify-center rounded-full bg-primary px-7.5 py-2.5 text-regular text-white duration-300 ease-in-out hover:bg-primaryho"

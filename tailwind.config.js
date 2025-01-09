@@ -18,6 +18,10 @@ module.exports = {
       backgroundImage: {
         "hero-pattern":
           "linear-gradient(to bottom, #A5F1FC50, #FFFFFF), url('/images/blog/blog-01.png')",
+        "product1-section3":
+          "linear-gradient(to bottom, #A5F1FC50, #FFFFFF), url('/images/blog/blog-04.png')",
+        "product1-section4":
+          "linear-gradient(to bottom, #A5F1FC50, #FFFFFF), url('/images/blog/blog-03.png')",
       },
       colors: {
         current: "currentColor",

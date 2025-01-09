@@ -12,7 +12,7 @@ const Products = () => {
   return (
     <>
       {/* <!-- ===== About Start ===== --> */}
-      <section className="overflow-hidden pb-20 lg:pb-25 xl:pb-30">
+      <section className="overflow-hidden pb-10 lg:pb-15 xl:pb-30">
         <div className="mx-auto max-w-c-1154 px-4 md:px-8 xl:px-0">
           <SectionHeader
             headerInfo={{
@@ -21,7 +21,7 @@ const Products = () => {
               description: t("home.products.description"),
             }}
           />
-          <div className="mt-12.5 flex items-center gap-8 lg:gap-32.5 xl:mt-20">
+          <div className="mt-12.5 flex items-center gap-8 bg-gradient-to-r from-meta/20 to-white px-10 py-10 lg:gap-32.5 xl:mt-20">
             <motion.div
               variants={{
                 hidden: {
@@ -93,7 +93,7 @@ const Products = () => {
 
       {/* <!-- ===== About Two Start ===== --> */}
       <section>
-        <div className="mx-auto max-w-c-1235 overflow-hidden px-4 md:px-8 2xl:px-0">
+        <div className="mx-auto max-w-c-1235 overflow-hidden bg-gradient-to-l from-titlebg/50 to-white px-10 py-10">
           <div className="flex items-center gap-8 lg:gap-32.5">
             <motion.div
               variants={{

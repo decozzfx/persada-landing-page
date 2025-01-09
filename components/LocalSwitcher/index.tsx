@@ -5,9 +5,10 @@ import { useTranslation } from "react-i18next";
 
 interface IProps {
   stickyMenu: boolean;
+  isHome: boolean;
 }
 
-const LocalSwicher: React.FC<IProps> = ({ stickyMenu }) => {
+const LocalSwicher: React.FC<IProps> = ({ stickyMenu, isHome }) => {
   const { t } = useTranslation();
 
   const changeLanguage = (lang: string) => {
@@ -19,14 +20,18 @@ const LocalSwicher: React.FC<IProps> = ({ stickyMenu }) => {
     <li className={"group relative flex "}>
       <button
         className={`${
-          stickyMenu ? "" : "text-white"
+          stickyMenu ? "" : !isHome ? "fill-waterloo" : "text-white"
         } flex cursor-pointer items-center justify-between gap-3  hover:text-primary`}
       >
         {t(i18next.language)}
         <span>
           <svg
             className={`h-3 w-3 cursor-pointer ${
-              stickyMenu ? "fill-waterloo" : "fill-white"
+              stickyMenu
+                ? "fill-waterloo"
+                : !isHome
+                ? "fill-waterloo"
+                : "fill-white"
             }  group-hover:fill-primary`}
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 512 512"
