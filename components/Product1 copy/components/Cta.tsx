@@ -3,31 +3,13 @@ import { ArrowRight } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { product1 } from "@/constants/products";
 import { motion } from "framer-motion";
-import Image from "next/image";
 
 const Cta = () => {
   const { t } = useTranslation();
   return (
-    <motion.section
-      variants={{
-        hidden: {
-          opacity: 0,
-          x: -20,
-        },
-
-        visible: {
-          opacity: 1,
-          x: 0,
-        },
-      }}
-      initial="hidden"
-      whileInView="visible"
-      transition={{ duration: 0.5, delay: 0.1 }}
-      viewport={{ once: true }}
-      className="bg-product1-section5 bg-cover py-10 lg:py-15 xl:py-20"
-    >
-      <div className="mx-auto max-w-c-1154 px-4  md:px-8 xl:px-0">
-        <div className="mx-auto w-full max-w-2xl rounded-lg bg-gradient-to-br from-gray-50 to-white shadow-2xl">
+    <section className="py-10 lg:py-15 xl:py-20">
+      <div className="mx-auto max-w-c-1154 px-4 md:px-8 xl:px-0">
+        <div className="mx-auto w-full max-w-2xl bg-gradient-to-br from-gray-50 to-white shadow-xl">
           <div className="relative overflow-hidden p-8">
             {/* Background decorative elements */}
             <div className="absolute right-0 top-0 -mr-16 -mt-16 h-32 w-32 rounded-full bg-blue-50 opacity-20" />
@@ -47,7 +29,7 @@ const Cta = () => {
                 }}
                 initial="hidden"
                 whileInView="visible"
-                transition={{ duration: 0.5, delay: 0.3 }}
+                transition={{ duration: 0.5, delay: 0.1 }}
                 viewport={{ once: true }}
                 className="animate_left p-6"
               >
@@ -69,7 +51,7 @@ const Cta = () => {
                   }}
                   initial="hidden"
                   whileInView="visible"
-                  transition={{ duration: 0.5, delay: 0.6 }}
+                  transition={{ duration: 0.5, delay: 0.4 }}
                   viewport={{ once: true }}
                   className="animate_left p-6"
                 >
@@ -95,13 +77,6 @@ const Cta = () => {
                       {t(product1.section5.link)}
                     </a>
                   </p>
-                  <Image
-                    width={299}
-                    height={299}
-                    src="/images/shape/shape-06.png"
-                    alt="Saly"
-                    className="absolute right-0 top-0 -z-1 hidden lg:block "
-                  />
                 </div>
               </motion.div>
             </div>
@@ -112,7 +87,7 @@ const Cta = () => {
           </div>
         </div>
       </div>
-    </motion.section>
+    </section>
   );
 };
 

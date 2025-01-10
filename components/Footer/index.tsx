@@ -56,7 +56,7 @@ const Footer = () => {
 
                 <a
                   href={`mailto:${t("footer.email")}`}
-                  className="flex items-center gap-2 text-lg font-medium text-black dark:text-white"
+                  className="text-md flex items-center gap-2 font-medium dark:text-white"
                 >
                   <svg
                     className="inline-block h-5 w-5 fill-current text-black dark:text-white"
@@ -78,7 +78,7 @@ const Footer = () => {
                   href={`https://www.google.com/maps?q=${t("footer.address")}`}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center gap-2 text-lg font-medium text-black dark:text-white"
+                  className="text-md flex items-center gap-2 font-medium  dark:text-white"
                 >
                   <svg
                     className="inline-block h-5 w-5 fill-current text-black dark:text-white"

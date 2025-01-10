@@ -1,15 +1,23 @@
 "use client";
 import { motion } from "framer-motion";
 
+interface IProps {
+  isTextWhiteColor?: boolean;
+  isBorderBottom?: boolean;
+  headerInfo: HeaderInfo;
+}
 type HeaderInfo = {
   title?: string;
   subtitle?: string;
   description?: string;
-  isTextWhiteColor?: boolean;
 };
 
-const SectionHeader = ({ headerInfo }: { headerInfo: HeaderInfo }) => {
-  const { title, subtitle, description, isTextWhiteColor } = headerInfo;
+const SectionHeader: React.FC<IProps> = ({
+  headerInfo,
+  isTextWhiteColor,
+  isBorderBottom,
+}) => {
+  const { title, subtitle, description } = headerInfo;
 
   return (
     <>
@@ -30,7 +38,12 @@ const SectionHeader = ({ headerInfo }: { headerInfo: HeaderInfo }) => {
         whileInView="visible"
         transition={{ duration: 1, delay: 0.1 }}
         viewport={{ once: true }}
-        className="animate_top mx-auto text-center"
+        className={`animate_top mx-auto text-center
+        ${
+          isBorderBottom &&
+          "after:mx-auto after:block after:w-3/12 after:rounded-full after:border-b-8 after:border-primary after:content-['']"
+        }
+        `}
       >
         {title && (
           <div className="mb-4 inline-block rounded-full bg-zumthor px-4.5 py-1.5 dark:border dark:border-strokedark dark:bg-blacksection">

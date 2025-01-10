@@ -22,6 +22,7 @@ module.exports = {
           "linear-gradient(to bottom, #A5F1FC50, #FFFFFF), url('/images/blog/blog-04.png')",
         "product1-section4":
           "linear-gradient(to bottom, #A5F1FC50, #FFFFFF), url('/images/blog/blog-03.png')",
+        "product1-section5": "url('/images/blog/blog-05.png')",
       },
       colors: {
         current: "currentColor",
