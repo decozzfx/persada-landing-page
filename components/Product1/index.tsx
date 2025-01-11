@@ -5,7 +5,6 @@ import FituresAndBenefits from "./components/FituresAndBenefits";
 import ProductDetailSection from "./components/ProductDetailSection";
 import ProblemAndSolution from "./components/ProblemAndSolution";
 import Cta from "./components/Cta";
-import CTA from "../CTA";
 
 const Product1 = () => {
   return (

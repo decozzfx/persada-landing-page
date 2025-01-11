@@ -117,5 +117,118 @@
   "product1.section5.title": "Ready to elevate your apparel?",
   "product1.section5.button": "Get in Touch Now",
   "product1.section5.subtitle": "Not finding what you need?",
-  "product1.section5.link": "Let’s discuss"
+  "product1.section5.link": "Let’s discuss",
+
+  "product2.section1.title": "IoT Solutions",
+  "product2.section1.subtitle": "Unlock the power of efficiency with our Raen SmartTrack RFID solution",
+  "product2.section1.description": "Experience seamless tracking and management solutions with our versatile RFID technology for healthcare and beyond.",
+
+  "product2.section2.title": "Overview",
+  "product2.section2.subtitle": "Overview RFID Technology",
+  "product2.section2.head": "Raen SmartTrack RFID solution is a comprehensive solution that enhances efficiency and safety across healthcare and beyond.",
+  "product2.section2.description": "By integrating RFID microchips, readers, and software, our solutions provide real-time data and insights, streamlining processes and enhancing patient care.",
+  "product2.section2.description2": "This technology enables precise tracking of patients, equipment, and medications, ensuring optimal resource management and improved healthcare outcomes.",
+  "product2.section2.image": "/images/about/about-light-01.png",
+
+  "product2.section3.title": "Our Features",
+  "product2.section3.subtitle": "Features and Benefits Products",
+
+  "product2.section3.feature.1.title": "Real-Time Tracking",
+  "product2.section3.feature.1.image": "/images/about/about-light-01.png",
+  "product2.section3.feature.1.description": "Monitor locations and assets in real-time, reducing response times and improving operational efficiency across various settings.",
+
+  "product2.section3.feature.2.title": "Engineered for Performance",
+  "product2.section3.feature.2.image": "/images/about/about-light-01.png",
+  "product2.section3.feature.2.description": "RFID wristbands and tags help prevent unauthorized movement and ensure accurate tracking and management of critical items.",
+
+  "product2.section3.feature.3.title": "Workflow Efficiency",
+  "product2.section3.feature.3.image": "/images/about/about-light-01.png",
+  "product2.section3.feature.3.description": "Automate inventory management and process flows, minimizing manual errors and freeing up resources for critical tasks.",
+
+  "product2.section3.feature.4.title": "Contactless Operation",
+  "product2.section3.feature.4.image": "/images/about/about-light-01.png",
+  "product2.section3.feature.4.description": "Reduce the risk of contamination with contactless tracking and monitoring solutions, enhancing safety in diverse environments.",
+
+  "product2.section4.title": "Application",
+  "product2.section4.subtitle": "Application",
+
+  "product2.section4.item.1.title": "Patient Identification and Tracking",
+  "product2.section4.item.1.description": "Ensure accurate identification and location monitoring throughout the healthcare facilities, enhancing operational efficiency in any setting requiring precise tracking.",
+
+  "product2.section4.item.2.title": "Medication Management",
+  "product2.section4.item.2.description": "Track inventory and administration of critical supplies, reducing errors and improving safety, applicable to any industry needing meticulous inventory control.",
+
+  "product2.section4.item.3.title": "Equipment and Asset Management",
+  "product2.section4.item.3.description": "Optimize the use of equipment and supplies with precise tracking and inventory control, beneficial for managing assets in diverse sectors.",
+
+  "product2.section4.item.4.title": "Emergency Response",
+  "product2.section4.item.4.description": "Quickly locate individuals and resources during emergencies, enhancing response times and operational effectiveness in various environments.",
+
+  "product2.section5.title": "Options",
+  "product2.section5.subtitle": "Integration and Customization Options",
+
+  "product2.section5.item.1.title": "Seamless Integration",
+  "product2.section5.item.1.description": "Our RFID solutions are compatible with existing management and record systems, ensuring smooth data flow and operation across various sectors",
+
+  "product2.section5.item.2.title": "Custom Tagging Solutions",
+  "product2.section5.item.2.description": "Choose from a variety of RFID tags tailored to specific environments and needs, adaptable to different industry requirements.",
+
+  "product2.section5.item.3.title": "Personalized Software Features",
+  "product2.section5.item.3.description": "Work with our team to customize software functionalities, such as reporting dashboards and alert systems, to align with your operational goals. These features are accessible via both PC and mobile devices, suitable for diverse applications.",
+
+  "product2.section5.item.4.title": "Scalable Solutions",
+  "product2.section5.item.4.description": "Easily expand RFID capabilities as your organization grows, ensuring continued efficiency and effectiveness across multiple industries.",
+
+  "product2.section6.title": "Ready to see Raen’s SmartTrack RFID in action?",
+  "product2.section6.button": "Request A Demo",
+
+  "partner.hero.title": "At Raen, we believe in building strong and mutually beneficial relationships.",
+  "partner.hero.description": "Join us and become part of a network that’s transforming the healthcare and textile industries.",
+  "partner.hero.button": "Become A Partner",
+
+  "partner.section1.title": "Partner",
+  "partner.section1.subtitle": "Why Choose Perseda as a Partner?",
+  "partner.section1.reason.1.title": "Industry Leadership",
+  "partner.section1.reason.1.description": "Our company set the standard for innovation, reliability, and performance. Supported by years of expertise since 1995, we committed to grow with technology for health care business and adapt to changing needs.",
+  "partner.section1.reason.2.title": "Industry Leadership",
+  "partner.section1.reason.2.description": "Offering advanced technology to ensure your business stays ahead of the competition. With smooth-running features that make you invest in technology that drives efficiency, accuracy, and long-term success in the medical field.",
+  "partner.section1.reason.3.title": "Proven Track Record",
+  "partner.section1.reason.3.description": "Established in 1995, with the willingness to develop our healthcare company. Our years of experience in the medical industry have proven that we are a reliable and trusted company to assist your medical business needs.",
+  "partner.section1.reason.4.title": "Commitment To Innovation",
+  "partner.section1.reason.4.description": "Keeping up with medical trends and shaping the future of the healthcare industry with the transformative product that ensures your business to stay ahead.",
+
+  "partner.section2.subtitle": "Partnership Benefits",
+  "partner.section2.benefit.1.title": "Revenue Growth",
+  "partner.section2.benefit.1.description": "Improving efficiency and reducing operational costs that give you more time to focus on scaling your business health care and achieve significant growth.",
+  "partner.section2.benefit.2.title": "Dedicated Support",
+  "partner.section2.benefit.2.description": "Understanding the unique challenges and offering tailored guidance, proactive solutions, and expert advice to help you maximize the value of our medical products.",
+  "partner.section2.benefit.3.title": "Marketing Support",
+  "partner.section2.benefit.3.description": "Our dedicated marketing support team works closely with you to create co-branded materials and strategic initiatives that drive awareness and generate leads.",
+  "partner.section2.benefit.4.title": "Training and Resources",
+  "partner.section2.benefit.4.description": "Providing the training program to ensure your team is confident, competent, and prepared to drive success with our medical product.",
+
+  "partner.section3.subtitle": "Types of Partnership",
+  "partner.section3.type.1.title": "Sales Affiliate Program",
+  "partner.section3.type.1.description": "Join our Sales Affiliate program and become a key player in promoting Raen's innovative products across healthcare and other industries.",
+  "partner.section3.type.1.benefit1": "Earn Incentives",
+  "partner.section3.type.1.benefit2": "Flexible Engagement",
+  "partner.section3.type.1.benefit3": "Comprehensive Support",
+  "partner.section3.type.2.title": "Strategic Partnership Program",
+  "partner.section3.type.2.description": "Collaborate with Raen through our Strategic Partnership program, designed for businesses seeking comprehensive support in either linen and/or RFID technology.",
+  "partner.section3.type.2.benefit1": "Expert Consultation",
+  "partner.section3.type.2.benefit2": "Distribution Support",
+  "partner.section3.type.2.benefit3": "Customized Solutions",
+  "partner.section3.type.3.title": "Select & Secure Partnership Program",
+  "partner.section3.type.3.description": "Institutions can engage in a flexible purchasing arrangement, selecting either linen products or RFID solutions to suit their operational requirement.",
+  "partner.section3.type.3.benefit1": "Tailored Procurement",
+  "partner.section3.type.3.benefit2": "Priority Access",
+  "partner.section3.type.3.benefit3": "Dedicated Support",
+  "partner.section4.title": "Together, we can drive innovation and excellence.",
+  "partner.section4.description": "Start your partnership journey now.",
+  "partner.section4.button": "Apply Now",
+
+  "yaers": "Years",
+  "partners": "Partners",
+  "projects": "Projects",
+  "solutions": "Solutions"
 }

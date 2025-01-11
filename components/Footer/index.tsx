@@ -48,7 +48,7 @@ const Footer = () => {
                   />
                 </a>
 
-                <p className="mb-10 mt-5">{t("footer.description")}</p>
+                <p className="mb-10 mt-5 text-sm">{t("footer.description")}</p>
 
                 <p className="mb-1.5 text-sectiontitle uppercase tracking-[5px]">
                   {t("footer.contact")}

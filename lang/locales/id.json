@@ -117,5 +117,118 @@
   "product1.section5.title": "Siap untuk meningkatkan pakaian Anda?",
   "product1.section5.button": "Hubungi Kami Sekarang",
   "product1.section5.subtitle": "Tidak menemukan apa yang Anda butuhkan?",
-  "product1.section5.link": "Mari berdiskusi"
+  "product1.section5.link": "Mari berdiskusi",
+
+  "product2.section1.title": "Solusi IoT",
+  "product2.section1.subtitle": "Manfaatkan efisiensi dengan solusi Raen SmartTrack RFID kami",
+  "product2.section1.description": "Rasakan solusi pelacakan dan manajemen yang mulus dengan teknologi RFID serbaguna kami untuk kesehatan dan lainnya.",
+
+  "product2.section2.title": "Gambaran Umum",
+  "product2.section2.subtitle": "Gambaran Umum Teknologi RFID",
+  "product2.section2.head": "Solusi Raen SmartTrack RFID adalah solusi komprehensif yang meningkatkan efisiensi dan keselamatan di seluruh sektor kesehatan dan lainnya.",
+  "product2.section2.description": "Dengan mengintegrasikan mikrochip RFID, pembaca, dan perangkat lunak, solusi kami menyediakan data dan wawasan real-time, merampingkan proses dan meningkatkan perawatan pasien.",
+  "product2.section2.description2": "Teknologi ini memungkinkan pelacakan yang tepat terhadap pasien, peralatan, dan obat-obatan, memastikan manajemen sumber daya yang optimal dan hasil kesehatan yang lebih baik.",
+  "product2.section2.image": "/images/about/about-light-01.png",
+
+  "product2.section3.title": "Fitur Kami",
+  "product2.section3.subtitle": "Fitur dan Manfaat Produk",
+
+  "product2.section3.feature.1.title": "Pelacakan Real-Time",
+  "product2.section3.feature.1.image": "/images/about/about-light-01.png",
+  "product2.section3.feature.1.description": "Pantau lokasi dan aset secara real-time, mengurangi waktu respons dan meningkatkan efisiensi operasional di berbagai lingkungan.",
+
+  "product2.section3.feature.2.title": "Dirancang untuk Kinerja",
+  "product2.section3.feature.2.image": "/images/about/about-light-01.png",
+  "product2.section3.feature.2.description": "Gelang dan tag RFID membantu mencegah pergerakan yang tidak sah dan memastikan pelacakan dan manajemen yang akurat terhadap barang-barang penting.",
+
+  "product2.section3.feature.3.title": "Efisiensi Alur Kerja",
+  "product2.section3.feature.3.image": "/images/about/about-light-01.png",
+  "product2.section3.feature.3.description": "Otomatisasi manajemen inventaris dan alur proses, meminimalkan kesalahan manual dan membebaskan sumber daya untuk tugas-tugas penting.",
+
+  "product2.section3.feature.4.title": "Operasi Tanpa Kontak",
+  "product2.section3.feature.4.image": "/images/about/about-light-01.png",
+  "product2.section3.feature.4.description": "Kurangi risiko kontaminasi dengan solusi pelacakan dan pemantauan tanpa kontak, meningkatkan keselamatan di berbagai lingkungan.",
+
+  "product2.section4.title": "Aplikasi",
+  "product2.section4.subtitle": "Aplikasi",
+
+  "product2.section4.item.1.title": "Identifikasi dan Pelacakan Pasien",
+  "product2.section4.item.1.description": "Pastikan identifikasi dan pemantauan lokasi yang akurat di seluruh fasilitas kesehatan, meningkatkan efisiensi operasional di lingkungan yang memerlukan pelacakan yang tepat.",
+
+  "product2.section4.item.2.title": "Manajemen Obat",
+  "product2.section4.item.2.description": "Lacak inventaris dan administrasi persediaan penting, mengurangi kesalahan dan meningkatkan keselamatan, berlaku untuk industri apa pun yang memerlukan kontrol inventaris yang teliti.",
+
+  "product2.section4.item.3.title": "Manajemen Peralatan dan Aset",
+  "product2.section4.item.3.description": "Optimalkan penggunaan peralatan dan persediaan dengan pelacakan dan kontrol inventaris yang tepat, bermanfaat untuk mengelola aset di berbagai sektor.",
+
+  "product2.section4.item.4.title": "Tanggap Darurat",
+  "product2.section4.item.4.description": "Cepat temukan individu dan sumber daya selama keadaan darurat, meningkatkan waktu respons dan efektivitas operasional di berbagai lingkungan.",
+
+  "product2.section5.title": "Opsi",
+  "product2.section5.subtitle": "Opsi Integrasi dan Kustomisasi",
+
+  "product2.section5.item.1.title": "Integrasi Tanpa Hambatan",
+  "product2.section5.item.1.description": "Solusi RFID kami kompatibel dengan sistem manajemen dan catatan yang ada, memastikan aliran data dan operasi yang lancar di berbagai sektor.",
+
+  "product2.section5.item.2.title": "Solusi Tag Kustom",
+  "product2.section5.item.2.description": "Pilih dari berbagai tag RFID yang disesuaikan dengan lingkungan dan kebutuhan spesifik, dapat disesuaikan dengan persyaratan industri yang berbeda.",
+
+  "product2.section5.item.3.title": "Fitur Perangkat Lunak yang Dipersonalisasi",
+  "product2.section5.item.3.description": "Bekerja sama dengan tim kami untuk menyesuaikan fungsionalitas perangkat lunak, seperti dasbor pelaporan dan sistem peringatan, agar sesuai dengan tujuan operasional Anda. Fitur-fitur ini dapat diakses melalui PC dan perangkat seluler, cocok untuk berbagai aplikasi.",
+
+  "product2.section5.item.4.title": "Solusi yang Dapat Diskalakan",
+  "product2.section5.item.4.description": "Dengan mudah memperluas kemampuan RFID seiring pertumbuhan organisasi Anda, memastikan efisiensi dan efektivitas yang berkelanjutan di berbagai industri.",
+
+  "product2.section6.title": "Siap melihat Raen SmartTrack RFID beraksi?",
+  "product2.section6.button": "Minta Demo",
+
+  "partner.hero.title": "Di Raen, kami percaya dalam membangun hubungan yang kuat dan saling menguntungkan.",
+  "partner.hero.description": "Bergabunglah dengan kami dan menjadi bagian dari jaringan yang mengubah industri kesehatan dan tekstil.",
+  "partner.hero.button": "Menjadi Mitra",
+
+  "partner.section1.title": "Mitra",
+  "partner.section1.subtitle": "Mengapa Memilih Perseda sebagai Mitra?",
+  "partner.section1.reason.1.title": "Kepemimpinan Industri",
+  "partner.section1.reason.1.description": "Perusahaan kami menetapkan standar untuk inovasi, keandalan, dan kinerja. Didukung oleh pengalaman bertahun-tahun sejak 1995, kami berkomitmen untuk tumbuh dengan teknologi untuk bisnis kesehatan dan beradaptasi dengan kebutuhan yang berubah.",
+  "partner.section1.reason.2.title": "Kepemimpinan Industri",
+  "partner.section1.reason.2.description": "Menawarkan teknologi canggih untuk memastikan bisnis Anda tetap unggul dalam persaingan. Dengan fitur yang berjalan lancar yang membuat Anda berinvestasi dalam teknologi yang mendorong efisiensi, akurasi, dan kesuksesan jangka panjang di bidang medis.",
+  "partner.section1.reason.3.title": "Rekam Jejak Terbukti",
+  "partner.section1.reason.3.description": "Didirikan pada tahun 1995, dengan kemauan untuk mengembangkan perusahaan kesehatan kami. Pengalaman bertahun-tahun kami di industri medis telah membuktikan bahwa kami adalah perusahaan yang andal dan terpercaya untuk membantu kebutuhan bisnis medis Anda.",
+  "partner.section1.reason.4.title": "Komitmen Terhadap Inovasi",
+  "partner.section1.reason.4.description": "Mengikuti tren medis dan membentuk masa depan industri kesehatan dengan produk transformasional yang memastikan bisnis Anda tetap unggul.",
+
+  "partner.section2.subtitle": "Manfaat Kemitraan",
+  "partner.section2.benefit.1.title": "Pertumbuhan Pendapatan",
+  "partner.section2.benefit.1.description": "Meningkatkan efisiensi dan mengurangi biaya operasional yang memberi Anda lebih banyak waktu untuk fokus pada pengembangan bisnis kesehatan Anda dan mencapai pertumbuhan yang signifikan.",
+  "partner.section2.benefit.2.title": "Dukungan Dedikasi",
+  "partner.section2.benefit.2.description": "Memahami tantangan unik dan menawarkan panduan yang disesuaikan, solusi proaktif, dan saran ahli untuk membantu Anda memaksimalkan nilai produk medis kami.",
+  "partner.section2.benefit.3.title": "Dukungan Pemasaran",
+  "partner.section2.benefit.3.description": "Tim dukungan pemasaran kami yang berdedikasi bekerja sama dengan Anda untuk membuat materi co-branded dan inisiatif strategis yang mendorong kesadaran dan menghasilkan prospek.",
+  "partner.section2.benefit.4.title": "Pelatihan dan Sumber Daya",
+  "partner.section2.benefit.4.description": "Menyediakan program pelatihan untuk memastikan tim Anda percaya diri, kompeten, dan siap untuk mendorong kesuksesan dengan produk medis kami.",
+
+  "partner.section3.subtitle": "Jenis Kemitraan",
+  "partner.section3.type.1.title": "Program Afiliasi Penjualan",
+  "partner.section3.type.1.description": "Bergabunglah dengan program Afiliasi Penjualan kami dan menjadi pemain kunci dalam mempromosikan produk inovatif Raen di seluruh sektor kesehatan dan lainnya.",
+  "partner.section3.type.1.benefit1": "Dapatkan Insentif",
+  "partner.section3.type.1.benefit2": "Keterlibatan Fleksibel",
+  "partner.section3.type.1.benefit3": "Dukungan Komprehensif",
+  "partner.section3.type.2.title": "Program Kemitraan Strategis",
+  "partner.section3.type.2.description": "Berkolaborasi dengan Raen melalui program Kemitraan Strategis kami, dirancang untuk bisnis yang mencari dukungan komprehensif dalam teknologi linen dan/atau RFID.",
+  "partner.section3.type.2.benefit1": "Konsultasi Ahli",
+  "partner.section3.type.2.benefit2": "Dukungan Distribusi",
+  "partner.section3.type.2.benefit3": "Solusi yang Disesuaikan",
+  "partner.section3.type.3.title": "Program Kemitraan Pilih & Amankan",
+  "partner.section3.type.3.description": "Institusi dapat terlibat dalam pengaturan pembelian yang fleksibel, memilih produk linen atau solusi RFID untuk memenuhi kebutuhan operasional mereka.",
+  "partner.section3.type.3.benefit1": "Pengadaan yang Disesuaikan",
+  "partner.section3.type.3.benefit2": "Akses Prioritas",
+  "partner.section3.type.3.benefit3": "Dukungan Dedikasi",
+  "partner.section4.title": "Bersama, kita dapat mendorong inovasi dan keunggulan.",
+  "partner.section4.description": "Mulai perjalanan kemitraan Anda sekarang.",
+  "partner.section4.button": "Daftar Sekarang",
+
+  "yaers": "Tahun",
+  "partners": "Mitra",
+  "projects": "Proyek",
+  "solutions": "Solusi"
 }

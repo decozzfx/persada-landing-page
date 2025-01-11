@@ -1,15 +1,15 @@
-import Product1 from "@/components/Product1";
+import Product2 from "@/components/Product2";
 import brand from "@/constants/brand";
 import { Metadata } from "next";
 import React from "react";
 
 export const metadata: Metadata = {
-  title: `Medical and Industrial Apparel - ${brand.title}`,
-  description: "Medical and Industrial Apparel",
+  title: `IoT Solutions- ${brand.title}`,
+  description: "IoT Solutions",
 };
 
 const ProductPage1 = async () => {
-  return <Product1 />;
+  return <Product2 />;
 };
 
 export default ProductPage1;

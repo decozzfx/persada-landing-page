@@ -50,6 +50,9 @@ module.exports = {
       fontSize: {
         metatitle: ["12px", "20px"],
         sectiontitle: ["14px", "22px"],
+        sectiontitle3: ["44px", "55px"],
+        sectiontitle2: ["40px", "52px"],
+        sectiontitle4: ["34px", "48px"],
         regular: ["16px", "26px"],
         metatitle3: ["18px", "26px"],
         metatitle2: ["20px", "32px"],
@@ -57,9 +60,6 @@ module.exports = {
         itemtitle: ["26px", "32px"],
         itemtitle2: ["24px", "32px"],
         hero: ["44px", "58px"],
-        sectiontitle3: ["44px", "55px"],
-        sectiontitle2: ["40px", "52px"],
-        sectiontitle4: ["34px", "48px"],
       },
       spacing: {
         4.5: "1.125rem",

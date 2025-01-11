@@ -4,16 +4,15 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import { useTranslation } from "react-i18next";
 import SectionHeader from "@/components/Common/SectionHeader";
-import { product1 } from "@/constants/products";
+import { product2 } from "@/constants/products";
 
 interface IProps {
-  id: number;
   title: string;
   description: string;
   image: string;
 }
 
-const Product: React.FC<IProps> = ({ id, title, description, image }) => {
+const Product: React.FC<IProps> = ({ title, description, image }) => {
   const { t } = useTranslation();
   return (
     <div className="dark:bg-dark-500 rounded-md bg-white p-5 shadow-md">
@@ -72,13 +71,11 @@ const ProductDetailSection = () => {
       <div className="mx-auto max-w-c-1154 px-4 md:px-8 xl:px-0">
         <SectionHeader
           headerInfo={{
-            title: t(product1.section1.title).toUpperCase(),
-            subtitle: t(product1.section1.subtitle),
-            description: t(product1.section1.description),
+            subtitle: t(product2.section4.subtitle),
           }}
         />
         <div className="grid grid-cols-1  gap-10 pt-9 md:grid-cols-2 lg:grid-cols-3">
-          {product1.section2.productList.map((item) => (
+          {product2.section4.item.map((item) => (
             <Product {...item} />
           ))}
         </div>

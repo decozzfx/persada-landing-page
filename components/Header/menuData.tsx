@@ -18,13 +18,19 @@ const menuData: Menu[] = [
         newTab: false,
         path: "/product1",
       },
+      {
+        id: 32,
+        title: "IoT Solutions",
+        newTab: false,
+        path: "/product2",
+      },
     ],
   },
   {
     id: 2,
     title: "Join Partner",
     newTab: false,
-    path: "/#features",
+    path: "/join-partner",
   },
   {
     id: 2.1,

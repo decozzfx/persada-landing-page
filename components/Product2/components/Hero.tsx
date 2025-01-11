@@ -2,7 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useTranslation } from "react-i18next";
-import { product1 } from "@/constants/products";
+import { product2 } from "@/constants/products";
 const Hero = () => {
   const { t } = useTranslation("");
 
@@ -47,9 +47,9 @@ const Hero = () => {
 
             <div className="w-full text-center">
               <h1 className="mb-5 pr-10 text-4xl font-bold text-black dark:text-white  ">
-                {t(product1.section1.subtitle)}
+                {t(product2.section1.subtitle)}
               </h1>
-              {t(product1.section1.description)}
+              {t(product2.section1.description)}
 
               <div className="mt-10">
                 <div className="flex flex-wrap justify-center gap-5">

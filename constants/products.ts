@@ -103,4 +103,106 @@ const product1 = {
   },
 };
 
-export { product1 };
+const product2 = {
+  section1: {
+    title: "product2.section1.title",
+    subtitle: "product2.section1.subtitle",
+    description: "product2.section1.description",
+  },
+  section2: {
+    title: "product2.section2.title",
+    subtitle: "product2.section2.subtitle",
+    head: "product2.section2.head",
+    description: "product2.section2.description",
+    description2: "product2.section2.description2",
+    image: "/images/about/about-light-01.png",
+  },
+  section3: {
+    title: "product2.section3.title",
+    subtitle: "product2.section3.subtitle",
+    feature: [
+      {
+        title: "product2.section3.feature.1.title",
+        image: "/images/about/about-light-01.png",
+        description: "product2.section3.feature.1.description",
+      },
+      {
+        title: "product2.section3.feature.2.title",
+        image: "/images/about/about-light-01.png",
+        description: "product2.section3.feature.2.description",
+      },
+      {
+        title: "product2.section3.feature.3.title",
+        image: "/images/about/about-light-01.png",
+        description: "product2.section3.feature.3.description",
+      },
+      {
+        title: "product2.section3.feature.4.title",
+        image: "/images/about/about-light-01.png",
+        description: "product2.section3.feature.4.description",
+      },
+    ],
+  },
+  section4: {
+    title: "product2.section4.title",
+    subtitle: "product2.section4.subtitle",
+    item: [
+      {
+        title: "product2.section4.item.1.title",
+        description: "product2.section4.item.1.description",
+        image: "/images/about/about-light-01.png",
+      },
+      {
+        title: "product2.section4.item.2.title",
+        description: "product2.section4.item.2.description",
+        image: "/images/about/about-light-01.png",
+      },
+      {
+        title: "product2.section4.item.3.title",
+        description: "product2.section4.item.3.description",
+        image: "/images/about/about-light-01.png",
+      },
+      {
+        title: "product2.section4.item.4.title",
+        description: "product2.section4.item.4.description",
+        image: "/images/about/about-light-01.png",
+      },
+    ],
+  },
+  section5: {
+    title: "product2.section5.title",
+    subtitle: "product2.section5.subtitle",
+    item: [
+      {
+        title: "product2.section5.item.1.title",
+        description: "product2.section5.item.1.description",
+        gradient: "bg-gradient-to-r from-blue-500 to-cyan-500",
+        icon: "Link2",
+      },
+      {
+        title: "product2.section5.item.2.title",
+        description: "product2.section5.item.2.description",
+        gradient: "bg-gradient-to-r from-purple-500 to-pink-500",
+        icon: "Tags",
+      },
+      {
+        title: "product2.section5.item.3.title",
+        description: "product2.section5.item.3.description",
+        gradient: "bg-gradient-to-r from-green-500 to-emerald-500",
+        icon: "Settings",
+      },
+      {
+        title: "product2.section5.item.4.title",
+        description: "product2.section5.item.4.description",
+        gradient: "bg-gradient-to-r from-orange-500 to-yellow-500",
+        icon: "ChartArea",
+      },
+    ],
+  },
+  section6: {
+    title: "product2.section6.title",
+    button: "product2.section6.button",
+  },
+};
+
+export { product1, product2 };

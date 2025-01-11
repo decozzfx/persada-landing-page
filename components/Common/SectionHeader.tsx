@@ -41,21 +41,21 @@ const SectionHeader: React.FC<IProps> = ({
         className={`animate_top mx-auto text-center
         ${
           isBorderBottom &&
-          "after:mx-auto after:block after:w-3/12 after:rounded-full after:border-b-8 after:border-primary after:content-['']"
+          "after:mx-auto after:block after:w-1/12 after:rounded-full after:border-b-4 after:border-primary after:content-['']"
         }
         `}
       >
         {title && (
           <div className="mb-4 inline-block rounded-full bg-zumthor px-4.5 py-1.5 dark:border dark:border-strokedark dark:bg-blacksection">
-            <span className="text-sectiontitle font-medium text-black dark:text-white">
+            <span className="text-md text-sectiontitle text-black dark:text-white">
               {title}
             </span>
           </div>
         )}
         <h2
           className={`mx-auto mb-4 text-3xl font-bold  ${
-            isTextWhiteColor ? "text-white" : "text-black"
-          } md:w-4/5 xl:w-1/2 xl:text-sectiontitle3`}
+            isTextWhiteColor ? "text-white" : "text-black/60"
+          } md:w-4/5 xl:w-1/2 xl:text-sectiontitle2`}
         >
           {subtitle}
         </h2>

@@ -2,9 +2,10 @@ import React from "react";
 import SectionHeader from "@/components/Common/SectionHeader";
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
-import { product1 } from "@/constants/products";
+import { product2 } from "@/constants/products";
+import Icon from "@/components/Icon";
 
-const ProblemAndSolution = () => {
+const Options = () => {
   const { t } = useTranslation();
   return (
     <>
@@ -14,14 +15,15 @@ const ProblemAndSolution = () => {
           <SectionHeader
             isBorderBottom
             headerInfo={{
-              subtitle: t(product1.section4.title),
+              title: t(product2.section5.title),
+              subtitle: t(product2.section5.subtitle),
             }}
           />
           {/* <!-- ===== Detail Section Start ===== --> */}
 
           <div className="p-6">
             <div className="space-y-6">
-              {product1.section4.item.map((item, index) => (
+              {product2.section5.item.map((item, index) => (
                 <motion.div
                   variants={{
                     hidden: {
@@ -38,27 +40,33 @@ const ProblemAndSolution = () => {
                   whileInView="visible"
                   transition={{ duration: 0.5, delay: 0.1 }}
                   viewport={{ once: true }}
-                  className="animate_left p-6"
+                  className="animate_left "
                 >
                   <div
                     key={index}
-                    className="border-b border-gray-200 pb-6 last:border-0 last:pb-0"
+                    className="group rounded-lg border  transition-all duration-300 hover:shadow-xl"
                   >
-                    <h3 className="mb-4 text-lg font-medium text-blue-600">
-                      {t(item.title)}
-                    </h3>
-                    <div className="grid gap-6 md:grid-cols-2">
-                      <div className="rounded-lg bg-red-50 p-4">
-                        <div className="flex items-start space-x-3">
-                          <div className="mt-1 min-w-[24px]">❌</div>
-                          <p className="text-gray-700">{t(item.problem)}</p>
+                    <div className="p-6">
+                      <div className="flex h-full flex-col">
+                        <div
+                          className={`rounded-lg p-3 ${item.gradient} mb-4 w-fit`}
+                        >
+                          <Icon
+                            name={item.icon}
+                            size={24}
+                            className="text-white"
+                          />
                         </div>
-                      </div>
-                      <div className="rounded-lg bg-green-50 p-4">
-                        <div className="flex items-start space-x-3">
-                          <div className="mt-1 min-w-[24px]">✅</div>
-                          <p className="text-gray-700">{t(item.solution)}</p>
-                        </div>
+
+                        <h3 className="mb-3 text-xl font-semibold transition-colors group-hover:text-blue-600">
+                          {t(item.title)}
+                        </h3>
+
+                        <p className="leading-relaxed text-gray-600">
+                          {t(item.description)}
+                        </p>
+
+                        <div className="${feature.gradient} mt-4 h-1 w-0 rounded-full bg-gradient-to-r opacity-0 transition-all duration-300 group-hover:w-full group-hover:opacity-100" />
                       </div>
                     </div>
                   </div>
@@ -74,4 +82,4 @@ const ProblemAndSolution = () => {
   );
 };
 
-export default ProblemAndSolution;
+export default Options;
