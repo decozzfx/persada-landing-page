@@ -1,3 +1,5 @@
+import { motion } from "framer-motion";
+
 type FaqData = {
   activeFaq: number;
   id: number;
@@ -48,13 +50,19 @@ const FAQItem = ({ faqData }: { faqData: FaqData }) => {
             </svg>
           )}
         </button>
-        <p
+        <motion.p
+          initial={{ opacity: 0, y: -10 }}
+          animate={{
+            opacity: activeFaq === id ? 1 : 0,
+            y: activeFaq === id ? 0 : -10,
+          }}
+          transition={{ duration: 0.3 }}
           className={`border-t border-stroke px-6 py-5 dark:border-strokedark lg:px-9 lg:py-7.5 ${
             activeFaq === id ? "block" : "hidden"
           }`}
         >
           {ans}
-        </p>
+        </motion.p>
       </div>
     </>
   );

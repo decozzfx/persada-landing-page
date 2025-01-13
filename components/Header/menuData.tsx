@@ -34,15 +34,15 @@ const menuData: Menu[] = [
   },
   {
     id: 2.1,
-    title: "Resources",
+    title: "Faq",
     newTab: false,
-    path: "/blog",
+    path: "/faq",
   },
   {
     id: 5,
     title: "Support",
     newTab: false,
-    path: "/blog",
+    path: "/support",
   },
   {
     id: 4,

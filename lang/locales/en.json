@@ -227,8 +227,26 @@
   "partner.section4.description": "Start your partnership journey now.",
   "partner.section4.button": "Apply Now",
 
+  "support.section.1.title": "We are here to help you explore how Raen's innovative solutions can transform your operations.",
+  "support.section.1.description": "Whether you are interested in seeing our products in action or want a detailed presentation tailored to your needs, we are excited to assist you.",
+  "support.section.2.title": "Request A Demo",
+  "support.section.2.description": "Experience firsthand how our RFID technology and high-quality apparel can enhance your workflow. Schedule a personalized demo to discover the efficiency and reliability of our solutions.",
+  "support.section.2.button": "Schedule A Demo",
+  "support.section.3.title": "Request A Presentation",
+  "support.section.3.description": "Discover our diverse range of products and services in an engaging presentation. We offer tailored customization to meet your healthcare needs. friendly team is eager to provide insights and answer any questions.",
+  "support.section.3.button": "Schedule A Demo",
+  "support.section4.title": "Ready to serve you, at any time",
+  "support.section4.button": "Contact Us",
+
   "yaers": "Years",
   "partners": "Partners",
   "projects": "Projects",
-  "solutions": "Solutions"
+  "solutions": "Solutions",
+  "name": "Name",
+  "email": "Email Address",
+  "phone.number": "Phone Number",
+  "company.name": "Company Name",
+  "product.interest": "Product Interest",
+  "customization.needs": "Customization Needs",
+  "comments.or.questions": "Comments or Questions"
 }

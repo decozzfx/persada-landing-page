@@ -227,8 +227,26 @@
   "partner.section4.description": "Mulai perjalanan kemitraan Anda sekarang.",
   "partner.section4.button": "Daftar Sekarang",
 
-  "yaers": "Tahun",
+  "support.section.1.title": "Kami di sini untuk membantu Anda mengeksplorasi bagaimana solusi inovatif Raen dapat mengubah operasi Anda.",
+  "support.section.1.description": "Apakah Anda tertarik untuk melihat produk kami beraksi atau ingin presentasi terperinci yang disesuaikan dengan kebutuhan Anda, kami siap membantu Anda.",
+  "support.section.2.title": "Minta Demo",
+  "support.section.2.description": "Rasakan secara langsung bagaimana teknologi RFID dan pakaian berkualitas tinggi kami dapat meningkatkan alur kerja Anda. Jadwalkan demo yang dipersonalisasi untuk menemukan efisiensi dan keandalan solusi kami.",
+  "support.section.2.button": "Jadwalkan Demo",
+  "support.section.3.title": "Minta Presentasi",
+  "support.section.3.description": "Temukan berbagai produk dan layanan kami dalam presentasi yang menarik. Kami menawarkan kustomisasi yang disesuaikan untuk memenuhi kebutuhan kesehatan Anda. Tim kami yang ramah siap memberikan wawasan dan menjawab pertanyaan apa pun.",
+  "support.section.3.button": "Jadwalkan Demo",
+  "support.section4.title": "Siap melayani Anda, kapan saja",
+  "support.section4.button": "Hubungi Kami",
+
+  "years": "Tahun",
   "partners": "Mitra",
   "projects": "Proyek",
-  "solutions": "Solusi"
+  "solutions": "Solusi",
+  "name": "Nama",
+  "email": "Alamat Email",
+  "phone.number": "Nomor Telepon",
+  "company.name": "Nama Perusahaan",
+  "product.interest": "Minat Produk",
+  "customization.needs": "Kebutuhan Kustomisasi",
+  "comments.or.questions": "Komentar atau Pertanyaan"
 }

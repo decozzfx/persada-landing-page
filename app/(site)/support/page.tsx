@@ -2,6 +2,7 @@ import React from "react";
 import Contact from "@/components/Contact";
 import { Metadata } from "next";
 import brand from "@/constants/brand";
+import Support from "@/components/Support";
 
 export const metadata: Metadata = {
   title: `Support Page - ${brand.title}`,
@@ -9,11 +10,7 @@ export const metadata: Metadata = {
 };
 
 const SupportPage = () => {
-  return (
-    <div className="pb-20 pt-40">
-      <Contact />
-    </div>
-  );
+  return <Support />;
 };
 
 export default SupportPage;
