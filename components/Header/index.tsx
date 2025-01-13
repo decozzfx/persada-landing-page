@@ -4,11 +4,13 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 
-import ThemeToggler from "./ThemeToggler";
 import menuData from "./menuData";
 import LocalSwicher from "../LocalSwitcher";
+import { useTranslation } from "react-i18next";
 
 const Header = () => {
+  const { t } = useTranslation();
+
   const [navigationOpen, setNavigationOpen] = useState(false);
   const [dropdownToggler, setDropdownToggler] = useState(false);
   const [stickyMenu, setStickyMenu] = useState(false);
@@ -120,7 +122,7 @@ const Header = () => {
                             : "text-white"
                         } flex cursor-pointer items-center justify-between gap-3  hover:text-primary`}
                       >
-                        {menuItem.title}
+                        {t(menuItem.title)}
                         <span>
                           <svg
                             className={`h-3 w-3 cursor-pointer ${
@@ -143,7 +145,7 @@ const Header = () => {
                       >
                         {menuItem.submenu.map((item, key) => (
                           <li key={key} className="hover:text-primary">
-                            <Link href={item.path || "#"}>{item.title}</Link>
+                            <Link href={item.path || "#"}>{t(item.title)}</Link>
                           </li>
                         ))}
                       </ul>
@@ -163,7 +165,7 @@ const Header = () => {
                             } hover:text-primary`
                       }
                     >
-                      {menuItem.title}
+                      {t(menuItem.title)}
                     </Link>
                   )}
                 </li>
@@ -171,14 +173,14 @@ const Header = () => {
             </ul>
           </nav>
 
-          <div className="mt-7 flex items-center gap-6 xl:mt-0">
+          <div className="mt-7 items-center gap-6 xl:mt-0 xl:flex">
             {/* <ThemeToggler /> */}
             <LocalSwicher isHome={isHome} stickyMenu={stickyMenu} />
             <Link
-              href="/support"
-              className="flex items-center justify-center rounded-full bg-primary px-7.5 py-2.5 text-regular text-white duration-300 ease-in-out hover:bg-primaryho"
+              href="/contact"
+              className="mt-5 flex items-center justify-center rounded-full bg-primary px-7.5 py-2.5 text-regular text-white duration-300 ease-in-out hover:bg-primaryho xl:mt-0"
             >
-              Contact Us 🔥
+              {t("contact.us")} 🔥
             </Link>
           </div>
         </div>

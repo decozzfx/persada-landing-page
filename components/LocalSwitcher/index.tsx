@@ -10,6 +10,7 @@ interface IProps {
 
 const LocalSwicher: React.FC<IProps> = ({ stickyMenu, isHome }) => {
   const { t } = useTranslation();
+  const [dropdownToggler, setDropdownToggler] = useState(false);
 
   const changeLanguage = (lang: string) => {
     i18next.changeLanguage(lang);
@@ -22,6 +23,7 @@ const LocalSwicher: React.FC<IProps> = ({ stickyMenu, isHome }) => {
         className={`${
           stickyMenu ? "" : !isHome ? "fill-waterloo" : "text-white"
         } flex cursor-pointer items-center justify-between gap-3  hover:text-primary`}
+        onClick={() => setDropdownToggler(!dropdownToggler)}
       >
         {t(i18next.language)}
         <span>
@@ -40,19 +42,12 @@ const LocalSwicher: React.FC<IProps> = ({ stickyMenu, isHome }) => {
           </svg>
         </span>
       </button>
-      <ul className={`dropdown `}>
-        {
-          Object.entries(langObj).map((item, key) => (
-            <li key={key} className=" hover:text-primary">
-              <button onClick={() => changeLanguage(item[1])}>{item[0]}</button>
-            </li>
-          ))
-          // langObj.submenu.map((item, key) => (
-          //   <li key={key} className="hover:text-primary">
-          //     <Link href={item.path || "#"}>{item.title}</Link>
-          //   </li>
-          // ))
-        }
+      <ul className={`dropdown ${dropdownToggler ? "flex" : ""}`}>
+        {Object.entries(langObj).map((item, key) => (
+          <li key={key} className=" hover:text-primary">
+            <button onClick={() => changeLanguage(item[1])}>{item[0]}</button>
+          </li>
+        ))}
       </ul>
     </li>
   );
